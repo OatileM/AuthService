@@ -7,12 +7,7 @@
       "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9C71DC8-D595-48B7-B2C2-349963D7996A}|..\\AuthService.Tests\\AuthService.Tests.csproj|c:\\.net projects\\2025\\authservice.tests\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +18,34 @@
       "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9C71DC8-D595-48B7-B2C2-349963D7996A}|..\\AuthService.Tests\\AuthService.Tests.csproj|c:\\.net projects\\2025\\authservice.tests\\tokenservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C71DC8-D595-48B7-B2C2-349963D7996A}|..\\AuthService.Tests\\AuthService.Tests.csproj|c:\\.net projects\\2025\\authservice.tests\\authservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|solutionrelative:data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61CE165B-7EA8-4E10-A5B8-F8A2F14E47CB}|AuthService.csproj|c:\\.net projects\\2025\\authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -50,7 +67,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,41 +79,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
-              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Models\\LoginModel.cs",
-              "RelativeToolTip": "Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Services\\ITokenService.cs",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Services\\ITokenService.cs",
+              "RelativeToolTip": "Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T17:35:47.61Z",
+              "WhenOpened": "2025-02-18T20:26:50.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService.Tests\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\AuthService.Tests\\AuthControllerTests.cs",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService.Tests\\AuthControllerTests.cs",
+              "RelativeToolTip": "..\\AuthService.Tests\\AuthControllerTests.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:15:05.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-18T19:56:13.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Models\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
-              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Models\\RegisterModel.cs",
-              "RelativeToolTip": "Models\\RegisterModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T17:35:13.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T17:31:55.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenServiceTests.cs",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService.Tests\\TokenServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\AuthService.Tests\\TokenServiceTests.cs",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService.Tests\\TokenServiceTests.cs",
+              "RelativeToolTip": "..\\AuthService.Tests\\TokenServiceTests.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAuwMcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:16:02.795Z",
               "EditorCaption": ""
             },
             {
@@ -107,53 +150,66 @@
               "RelativeDocumentMoniker": "Services\\TokenService.cs",
               "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Services\\TokenService.cs",
               "RelativeToolTip": "Services\\TokenService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwC0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T17:29:26.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Models\\Role.cs",
-              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Models\\Role.cs",
-              "RelativeToolTip": "Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwEAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:42:10.516Z",
+              "WhenOpened": "2025-02-17T19:30:23.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:41:31.067Z",
+              "WhenOpened": "2025-02-18T17:35:13.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthService.csproj",
-              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\AuthService.csproj",
-              "RelativeDocumentMoniker": "AuthService.csproj",
-              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\AuthService.csproj",
-              "RelativeToolTip": "AuthService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:35:47.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.Tests",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService.Tests\\AuthService.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\AuthService.Tests\\AuthService.Tests.csproj",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService.Tests\\AuthService.Tests.csproj",
+              "RelativeToolTip": "..\\AuthService.Tests\\AuthService.Tests.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-17T19:38:46.285Z",
+              "WhenOpened": "2025-02-18T18:18:46.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Data\\MyDbContext.cs",
               "RelativeDocumentMoniker": "Data\\MyDbContext.cs",
@@ -166,28 +222,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "AuthService.csproj",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\AuthService.csproj",
+              "RelativeDocumentMoniker": "AuthService.csproj",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\AuthService.csproj",
+              "RelativeToolTip": "AuthService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-17T19:38:46.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T19:41:31.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T19:42:10.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-17T19:32:16.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\.NET Projects\\2025\\AuthService\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\.NET Projects\\2025\\AuthService\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:30:23.251Z",
               "EditorCaption": ""
             }
           ]
