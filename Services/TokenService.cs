@@ -8,33 +8,44 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace AuthService.Services
 {
-    public class TokenService
+    public class TokenService : ITokenService
     {
-
         private readonly IConfiguration _configuration;
 
         public TokenService(IConfiguration configuration)
         {
-            _configuration = configuration;
+            _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
         }
 
         public string GenerateToken(IdentityUser user)
         {
-            var claims = new[]
-            {
-                new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-            };
+            if (user == null)
+                throw new ArgumentNullException(nameof(user));
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var jwtKey = _configuration["Jwt:Key"] ??
+                throw new ArgumentNullException("Jwt:Key", "JWT Key configuration is missing");
+            var issuer = _configuration["Jwt:Issuer"] ??
+                throw new ArgumentNullException("Jwt:Issuer", "JWT Issuer configuration is missing");
+            var audience = _configuration["Jwt:Audience"] ??
+                throw new ArgumentNullException("Jwt:Audience", "JWT Audience configuration is missing");
+
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            var now = DateTime.UtcNow;
 
             var token = new JwtSecurityToken(
-                issuer: _configuration["Jwt:Issuer"],
-                audience: _configuration["Jwt:Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddMinutes(30),
-                signingCredentials: creds);
+                issuer: issuer,
+                audience: audience,
+                claims: new[]
+                {
+                    new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                    new Claim(JwtRegisteredClaimNames.Iat, DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString())
+                },
+                notBefore: now,
+                expires: now.AddMinutes(30),
+                signingCredentials: credentials
+            );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
