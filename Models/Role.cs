@@ -1,8 +1,23 @@
-﻿namespace AuthService.Models
+﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace AuthService.Models
 {
-    public class Role
+    public class Role : IdentityRole
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public string Description { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public Role() : base()
+        {
+        }
+
+        public Role(string roleName) : base(roleName)
+        {
+        }
     }
+
+
 }
