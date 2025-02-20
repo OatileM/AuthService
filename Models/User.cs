@@ -1,10 +1,17 @@
-﻿namespace AuthService.Models
+﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace AuthService.Models
 {
-    public class User
+    public class User : IdentityUser
     {
 
-        public int Id { get; set; }
-        public string UserName { get; set; }
-        public string Email { get; set; }
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
     }
+
 }
